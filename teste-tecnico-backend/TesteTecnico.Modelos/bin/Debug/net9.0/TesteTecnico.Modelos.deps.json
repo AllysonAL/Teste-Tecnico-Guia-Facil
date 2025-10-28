@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TesteTecnico.Modelos/1.0.0": {
+        "runtime": {
+          "TesteTecnico.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteTecnico.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

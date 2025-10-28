@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+[Bb]in/
+[Oo]bj/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# User-specific files #
+#######################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# Build results #
+#################
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Test results #
+################
+*.trx
+TestResult*/
+CoverageResults*/
+
+# Visual Studio settings #
+##########################
+.vscode/
+.vs/
+*.dbmdl
+
+# Secrets #
+##########################
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.Test.json
+**/appsettings.json
+**/secrets.json
+
+# Entity Framework #
+####################
+Migrations/
+
+# Others #
+##########################
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig

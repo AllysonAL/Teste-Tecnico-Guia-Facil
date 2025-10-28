@@ -1,0 +1,11 @@
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\bin\Debug\net9.0\TesteTecnico.Modelos.deps.json
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\bin\Debug\net9.0\TesteTecnico.Modelos.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\bin\Debug\net9.0\TesteTecnico.Modelos.pdb
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.AssemblyInfoInputs.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.AssemblyInfo.cs
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\refint\TesteTecnico.Modelos.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\TesteTecnico.Modelos.pdb
+C:\Users\Allyson\source\repos\TesteTecnico.Modelos\obj\Debug\net9.0\ref\TesteTecnico.Modelos.dll

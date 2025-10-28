@@ -1,0 +1,17 @@
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Dados.deps.json
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Dados.runtimeconfig.json
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Dados.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Dados.pdb
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Modelos.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\bin\Debug\net9.0\TesteTecnico.Modelos.pdb
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.csproj.AssemblyReference.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.AssemblyInfoInputs.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.AssemblyInfo.cs
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTec.BDFF3A56.Up2Date
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\refint\TesteTecnico.Dados.dll
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.pdb
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\TesteTecnico.Dados.genruntimeconfig.cache
+C:\Users\Allyson\source\repos\TesteTecnico.Dados\obj\Debug\net9.0\ref\TesteTecnico.Dados.dll
