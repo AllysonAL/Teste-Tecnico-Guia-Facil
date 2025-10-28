@@ -1,0 +1,52 @@
+.acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botao {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+.cadastrar-empresa {
+  padding: 2rem 0;
+}
+
+.cadastrar-empresa form {
+  background: #a7a7f5;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.cadastrar-empresa form label {
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.cadastrar-empresa form .input {
+  border: none;
+  height: 20px;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: medium;
+  margin: 0.5rem 0 2rem;
+}
+
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: rgb(140, 35, 35);
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.botao__desabilitado {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}

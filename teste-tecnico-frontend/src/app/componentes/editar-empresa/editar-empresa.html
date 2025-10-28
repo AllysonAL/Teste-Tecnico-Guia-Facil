@@ -1,0 +1,97 @@
+<section class="container alterar-empresa ff-inter">
+  <header class="header">
+    <h1>Altere o cadastro da empresa:</h1>
+  </header>
+
+  <form [formGroup]="formulario">
+    <label for="nome">Nome</label>
+    <input
+      type="textarea"
+      class="input"
+      id="nome"
+      formControlName="nome"
+      placeholder="Digite o nome da empresa"
+    >
+
+    <div class="mensagem__erro" *ngIf="formulario.get('nome')?.touched && formulario.get('nome')?.errors?.['required']">
+      Campo é obrigatório!
+    </div>
+
+    <div class="mensagem__erro" *ngIf="formulario.get('nome')?.touched && formulario.get('nome')?.errors?.['pattern']">
+      Valor inválido.
+    </div>
+
+    <label for="cnpj">CNPJ</label>
+    <input
+      type="text"
+      class="input"
+      id="cnpj"
+      formControlName="cnpj"
+      placeholder="Digite o CNPJ"
+    >
+
+    <div class="mensagem__erro" *ngIf="formulario.get('cnpj')?.touched && formulario.get('cnpj')?.errors?.['required']">
+      Campo é obrigatório!
+    </div>
+
+    <div class="mensagem__erro" *ngIf="formulario.get('cnpj')?.touched && formulario.get('cnpj')?.errors?.['pattern']">
+      CNPJ inválido. Formato esperado: 00.000.000/0000-00
+    </div>
+
+    <label for="email">Email</label>
+    <input
+      type="text"
+      class="input"
+      id="email"
+      formControlName="email"
+      placeholder="Informe o email"
+    >
+
+    <div class="mensagem__erro" *ngIf="formulario.get('email')?.touched && formulario.get('email')?.errors?.['required']">
+      Campo é obrigatório!
+    </div>
+
+    <div class="mensagem__erro" *ngIf="formulario.get('email')?.touched && formulario.get('email')?.errors?.['pattern']">
+      Email inválido. Formato esperado: usuario@dominio.com
+    </div>
+
+    <label for="telefone">Telefone</label>
+    <input
+      type="text"
+      class="input"
+      id="telefone"
+      formControlName="telefone"
+      placeholder="Informe o telefone"
+    >
+
+    <div class="mensagem__erro" *ngIf="formulario.get('telefone')?.touched && formulario.get('telefone')?.errors?.['required']">
+      Campo é obrigatório!
+    </div>
+
+    <div class="mensagem__erro" *ngIf="formulario.get('telefone')?.touched && formulario.get('telefone')?.errors?.['pattern']">
+      Telefone inválido. Formato esperado: (00) 00000-0000
+    </div>
+
+    <label for="endereco">Endereco</label>
+    <input
+      type="text"
+      class="input"
+      id="endereco"
+      formControlName="endereco"
+      placeholder="Informe o endereço"
+    >
+
+    <div class="mensagem__erro" *ngIf="formulario.get('endereco')?.touched && formulario.get('endereco')?.errors?.['required']">
+      Campo é obrigatório!
+    </div>
+
+    <div class="mensagem__erro" *ngIf="formulario.get('endereco')?.touched && formulario.get('endereco')?.errors?.['pattern']">
+      Endereço inválido. Formato esperado: Rua Exemplo, 123
+    </div>
+
+    <div class="acoes">
+      <button class="botao" (click)="editarEmpresa()" [disabled]="!formulario.valid" [ngClass]="habilitarBotao()">Salvar</button>
+      <button class="botao" (click)="cancelar()">Cancelar</button>
+    </div>
+  </form>
+</section>

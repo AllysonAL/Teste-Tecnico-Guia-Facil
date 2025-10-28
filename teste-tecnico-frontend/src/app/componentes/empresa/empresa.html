@@ -1,0 +1,17 @@
+<div class="empresa ff-roboto-mono empresa-g">
+  <img src="images/icone-empresa.png" alt="Ícone de empresa">
+  <h2 class="nome">{{empresa.nome}}</h2>
+  <p class="cnpj">CNPJ: {{empresa.cnpj}}</p>
+  <p class="email">Email: {{empresa.email}}</p>
+  <p class="endereco">Endereço: {{empresa.endereco}}</p>
+  <p class="telefone">Telefone: {{empresa.telefone}}</p>
+
+  <div class="acoes">
+    <button class="botao-editar" routerLink="/editarEmpresa/{{empresa.id}}">
+      <img src="images/icone-editar.png" alt="Ícone de editar">
+    </button>
+    <button class="botao-excluir" routerLink="/excluirEmpresa/{{empresa.id}}">
+      <img src="images/icone-excluir.png" alt="Ícone de excluir">
+    </button>
+  </div>
+</div>

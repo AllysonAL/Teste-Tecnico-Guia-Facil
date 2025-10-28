@@ -1,0 +1,30 @@
+<section class="container">
+  <header class="header d-flex">
+  <div class="buscar-empresas">
+    <input
+      type="search"
+      class="filtro"
+      placeholder="Qual empresa você está procurando?"
+      autofocus
+      [(ngModel)]="filtro"
+      (keyup)="pesquisarEmpresas()"
+    >
+  </div>
+  <h1 class="ff-inter">{{titulo}}</h1>
+    <div class="botoes">
+      <button routerLink="/cadastrarEmpresa" class="botao">Cadastrar empresa</button>
+    </div>
+  </header>
+
+  <div class="mural" *ngIf="listaEmpresas.length > 0; else semEmpresas">
+    <div *ngFor="let empresa of listaEmpresas">
+      <app-empresa [empresa]="empresa"></app-empresa>
+    </div>
+  </div>
+</section>
+
+<ng-template #semEmpresas>
+  <div class="ff-inter sem-empresas">
+    <p>Nenhuma empresa foi encontrada</p>
+  </div>
+</ng-template>

@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.rodape {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  background-color: #0e0e11;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

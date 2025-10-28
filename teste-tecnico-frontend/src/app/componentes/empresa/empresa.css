@@ -1,0 +1,43 @@
+.nome{
+  border: 1px solid #0e0e11;
+}
+
+.acoes {
+  display: flex;
+  justify-content: flex-end
+}
+
+.botao-editar,
+.botao-excluir,
+.botao-favorito {
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.empresa {
+  background-color: #d1d1f1;
+  border-radius: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.empresa .conteudo {
+  margin: 1rem auto;
+  word-wrap: break-word;
+}
+
+.empresa .autoria {
+  word-wrap: break-word;
+}
+
+.empresa-g {
+  width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+  .empresa-g {
+    width: 100%;
+  }
+}
